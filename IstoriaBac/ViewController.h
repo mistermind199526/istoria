@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+#import "AFNetworking.h"
+#import "CoreData+MagicalRecord.h"
+@interface ViewController : UIViewController  <UITableViewDelegate,NSFetchedResultsControllerDelegate>
+@property(strong,nonatomic) NSFetchedResultsController *fetchedResultsController;
 
 @end
 

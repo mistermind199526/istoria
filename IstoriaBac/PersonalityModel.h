@@ -9,5 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface PersonalityModel : NSObject
+@property NSString *name;
+@property NSString *image;
+@property NSString *details;
 
 @end

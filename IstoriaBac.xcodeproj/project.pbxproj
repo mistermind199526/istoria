@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E603062B326C1E2F5CEE7E11 /* libPods-IstoriaBac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEC3CC2A0B9EB9690AC07D2 /* libPods-IstoriaBac.a */; };
+		F408769A1B171047001330ED /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40876991B171047001330ED /* CoreText.framework */; };
+		F408769C1B17105A001330ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F408769B1B17105A001330ED /* UIKit.framework */; };
+		F408769E1B17106E001330ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F408769D1B17106E001330ED /* CoreGraphics.framework */; };
+		F40876A11B173602001330ED /* PersonalityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F40876A01B173602001330ED /* PersonalityModel.m */; };
+		F40876A31B18925E001330ED /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40876A21B18925E001330ED /* CoreImage.framework */; };
+		F40876A51B189267001330ED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40876A41B189267001330ED /* QuartzCore.framework */; };
 		F40931421B15BC1600A442B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F40931411B15BC1600A442B1 /* main.m */; };
 		F40931451B15BC1600A442B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F40931441B15BC1600A442B1 /* AppDelegate.m */; };
 		F40931481B15BC1600A442B1 /* IstoriaBac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F40931461B15BC1600A442B1 /* IstoriaBac.xcdatamodeld */; };
@@ -15,6 +22,13 @@
 		F40931501B15BC1600A442B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F409314F1B15BC1600A442B1 /* Images.xcassets */; };
 		F40931531B15BC1600A442B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F40931511B15BC1600A442B1 /* LaunchScreen.xib */; };
 		F409315F1B15BC1600A442B1 /* IstoriaBacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F409315E1B15BC1600A442B1 /* IstoriaBacTests.m */; };
+		F409316E1B15BD5F00A442B1 /* Decebal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F409316D1B15BD5F00A442B1 /* Decebal.jpg */; };
+		F40931721B15E07800A442B1 /* PersDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F40931701B15E07800A442B1 /* PersDetailsViewController.m */; };
+		F40931731B15E07800A442B1 /* PersDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F40931711B15E07800A442B1 /* PersDetailsViewController.xib */; };
+		F4FB59661B1C928700275376 /* Personality.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FB59651B1C928700275376 /* Personality.m */; };
+		F4FB59691B1C928700275376 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FB59681B1C928700275376 /* Image.m */; };
+		F4FB59771B1CA20500275376 /* PersonalitatiBacTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FB59751B1CA20500275376 /* PersonalitatiBacTableViewCell.m */; };
+		F4FB59781B1CA20500275376 /* PersonalitatiBacTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4FB59761B1CA20500275376 /* PersonalitatiBacTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39B0E8D6570E3C6A7B11089E /* Pods-IstoriaBac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IstoriaBac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IstoriaBac/Pods-IstoriaBac.debug.xcconfig"; sourceTree = "<group>"; };
+		59DF48DBA4EB2699A89B2818 /* Pods-IstoriaBac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IstoriaBac.release.xcconfig"; path = "Pods/Target Support Files/Pods-IstoriaBac/Pods-IstoriaBac.release.xcconfig"; sourceTree = "<group>"; };
+		7EEC3CC2A0B9EB9690AC07D2 /* libPods-IstoriaBac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IstoriaBac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40876991B171047001330ED /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		F408769B1B17105A001330ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F408769D1B17106E001330ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F408769F1B173602001330ED /* PersonalityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalityModel.h; sourceTree = "<group>"; };
+		F40876A01B173602001330ED /* PersonalityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalityModel.m; sourceTree = "<group>"; };
+		F40876A21B18925E001330ED /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		F40876A41B189267001330ED /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F409313C1B15BC1600A442B1 /* IstoriaBac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IstoriaBac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40931401B15BC1600A442B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F40931411B15BC1600A442B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +66,17 @@
 		F40931581B15BC1600A442B1 /* IstoriaBacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IstoriaBacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F409315D1B15BC1600A442B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F409315E1B15BC1600A442B1 /* IstoriaBacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IstoriaBacTests.m; sourceTree = "<group>"; };
+		F409316D1B15BD5F00A442B1 /* Decebal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Decebal.jpg; path = ../../../Downloads/Decebal.jpg; sourceTree = "<group>"; };
+		F409316F1B15E07800A442B1 /* PersDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersDetailsViewController.h; sourceTree = "<group>"; };
+		F40931701B15E07800A442B1 /* PersDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersDetailsViewController.m; sourceTree = "<group>"; };
+		F40931711B15E07800A442B1 /* PersDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersDetailsViewController.xib; sourceTree = "<group>"; };
+		F4FB59641B1C928700275376 /* Personality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Personality.h; path = Models/Personality.h; sourceTree = "<group>"; };
+		F4FB59651B1C928700275376 /* Personality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Personality.m; path = Models/Personality.m; sourceTree = "<group>"; };
+		F4FB59671B1C928700275376 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Image.h; path = Models/Image.h; sourceTree = "<group>"; };
+		F4FB59681B1C928700275376 /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Image.m; path = Models/Image.m; sourceTree = "<group>"; };
+		F4FB59741B1CA20500275376 /* PersonalitatiBacTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalitatiBacTableViewCell.h; sourceTree = "<group>"; };
+		F4FB59751B1CA20500275376 /* PersonalitatiBacTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalitatiBacTableViewCell.m; sourceTree = "<group>"; };
+		F4FB59761B1CA20500275376 /* PersonalitatiBacTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalitatiBacTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +84,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F40876A51B189267001330ED /* QuartzCore.framework in Frameworks */,
+				F40876A31B18925E001330ED /* CoreImage.framework in Frameworks */,
+				F408769E1B17106E001330ED /* CoreGraphics.framework in Frameworks */,
+				F408769C1B17105A001330ED /* UIKit.framework in Frameworks */,
+				F408769A1B171047001330ED /* CoreText.framework in Frameworks */,
+				E603062B326C1E2F5CEE7E11 /* libPods-IstoriaBac.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +103,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D80AADEFE69C7A064CD87095 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39B0E8D6570E3C6A7B11089E /* Pods-IstoriaBac.debug.xcconfig */,
+				59DF48DBA4EB2699A89B2818 /* Pods-IstoriaBac.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F40931331B15BC1600A442B1 = {
 			isa = PBXGroup;
 			children = (
 				F409313E1B15BC1600A442B1 /* IstoriaBac */,
 				F409315B1B15BC1600A442B1 /* IstoriaBacTests */,
 				F409313D1B15BC1600A442B1 /* Products */,
+				D80AADEFE69C7A064CD87095 /* Pods */,
+				F717F383FB8277119BFF1ADA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,9 +140,22 @@
 				F40931491B15BC1600A442B1 /* ViewController.h */,
 				F409314A1B15BC1600A442B1 /* ViewController.m */,
 				F409314C1B15BC1600A442B1 /* Main.storyboard */,
+				F4FB59741B1CA20500275376 /* PersonalitatiBacTableViewCell.h */,
+				F4FB59751B1CA20500275376 /* PersonalitatiBacTableViewCell.m */,
+				F4FB59761B1CA20500275376 /* PersonalitatiBacTableViewCell.xib */,
+				F409316F1B15E07800A442B1 /* PersDetailsViewController.h */,
+				F40931701B15E07800A442B1 /* PersDetailsViewController.m */,
+				F40931711B15E07800A442B1 /* PersDetailsViewController.xib */,
+				F408769F1B173602001330ED /* PersonalityModel.h */,
+				F40876A01B173602001330ED /* PersonalityModel.m */,
 				F409314F1B15BC1600A442B1 /* Images.xcassets */,
 				F40931511B15BC1600A442B1 /* LaunchScreen.xib */,
 				F40931461B15BC1600A442B1 /* IstoriaBac.xcdatamodeld */,
+				F4FB59671B1C928700275376 /* Image.h */,
+				F4FB59681B1C928700275376 /* Image.m */,
+				F4FB59641B1C928700275376 /* Personality.h */,
+				F4FB59651B1C928700275376 /* Personality.m */,
+				F409316D1B15BD5F00A442B1 /* Decebal.jpg */,
 				F409313F1B15BC1600A442B1 /* Supporting Files */,
 			);
 			path = IstoriaBac;
@@ -122,6 +187,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F717F383FB8277119BFF1ADA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F40876A41B189267001330ED /* QuartzCore.framework */,
+				F40876A21B18925E001330ED /* CoreImage.framework */,
+				F408769D1B17106E001330ED /* CoreGraphics.framework */,
+				F408769B1B17105A001330ED /* UIKit.framework */,
+				F40876991B171047001330ED /* CoreText.framework */,
+				7EEC3CC2A0B9EB9690AC07D2 /* libPods-IstoriaBac.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F40931621B15BC1600A442B1 /* Build configuration list for PBXNativeTarget "IstoriaBac" */;
 			buildPhases = (
+				FF25DE028719663160D12CA2 /* Check Pods Manifest.lock */,
 				F40931381B15BC1600A442B1 /* Sources */,
 				F40931391B15BC1600A442B1 /* Frameworks */,
 				F409313A1B15BC1600A442B1 /* Resources */,
+				BCA95F15392CEC28CEB3A893 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,7 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F409314E1B15BC1600A442B1 /* Main.storyboard in Resources */,
+				F40931731B15E07800A442B1 /* PersDetailsViewController.xib in Resources */,
 				F40931531B15BC1600A442B1 /* LaunchScreen.xib in Resources */,
+				F409316E1B15BD5F00A442B1 /* Decebal.jpg in Resources */,
+				F4FB59781B1CA20500275376 /* PersonalitatiBacTableViewCell.xib in Resources */,
 				F40931501B15BC1600A442B1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,6 +300,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BCA95F15392CEC28CEB3A893 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IstoriaBac/Pods-IstoriaBac-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF25DE028719663160D12CA2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F40931381B15BC1600A442B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -224,8 +340,13 @@
 			files = (
 				F40931451B15BC1600A442B1 /* AppDelegate.m in Sources */,
 				F40931421B15BC1600A442B1 /* main.m in Sources */,
+				F4FB59661B1C928700275376 /* Personality.m in Sources */,
+				F4FB59771B1CA20500275376 /* PersonalitatiBacTableViewCell.m in Sources */,
 				F409314B1B15BC1600A442B1 /* ViewController.m in Sources */,
 				F40931481B15BC1600A442B1 /* IstoriaBac.xcdatamodeld in Sources */,
+				F4FB59691B1C928700275376 /* Image.m in Sources */,
+				F40876A11B173602001330ED /* PersonalityModel.m in Sources */,
+				F40931721B15E07800A442B1 /* PersDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +472,7 @@
 		};
 		F40931631B15BC1600A442B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39B0E8D6570E3C6A7B11089E /* Pods-IstoriaBac.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IstoriaBac/Info.plist;
@@ -361,6 +483,7 @@
 		};
 		F40931641B15BC1600A442B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59DF48DBA4EB2699A89B2818 /* Pods-IstoriaBac.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IstoriaBac/Info.plist;
@@ -422,6 +545,7 @@
 				F40931641B15BC1600A442B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F40931651B15BC1600A442B1 /* Build configuration list for PBXNativeTarget "IstoriaBacTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +554,7 @@
 				F40931671B15BC1600A442B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

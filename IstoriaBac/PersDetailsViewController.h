@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Personality.h"
 @interface PersDetailsViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet UITextView *textView;
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+@property Personality *personality;
 
 @end
